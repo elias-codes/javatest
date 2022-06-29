@@ -9,6 +9,7 @@
         //Javascript section
         let x = 3;
         let y = 5;
+        let phrase = "i need the i in uppercase";
 
         //This function adds 7 to a variable
         function add7(x) {
@@ -20,6 +21,13 @@
         function multiply(x, y) {
             let product = x * y;
             return product;
+        }
+
+        //This function capitalizes the first letter of a string
+        function capitalize (phrase) {
+            let phraseUpper = phrase.charAt(0).toUpperCase() + phrase.slice(1);
+            console.log(phraseUpper);
+            return phraseUpper;
         }
 
     </script>
