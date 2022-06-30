@@ -10,8 +10,11 @@
 
        for (let i = 1; i <= answer; i++) {//for loop printing to answer
         if (i % 3 === 0) {
-            console.log("Fizz");
-        } else {
+            console.log("Fizz");//checks for multiples of 3 and prints Fizz
+        } else if (i % 5 === 0) {//checks for multiples of 3 and prints Buzz
+            console.log("Buzz");
+        }
+         else {
         console.log(i);
         }
        }
